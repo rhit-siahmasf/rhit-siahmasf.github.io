@@ -1,0 +1,59 @@
+body {
+    background: #DDDDDD;
+    font-family: 'Bitter', serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#title {
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}
+
+#experienceHeader {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+#experience {
+    background-color: #900000;
+    color: white;
+    font-size: 20px;
+}
+
+#csse120:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#item1:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#item2:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#item3:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#item4:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#item5:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}

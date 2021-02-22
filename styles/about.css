@@ -1,0 +1,22 @@
+body {
+    background: #DDDDDD;
+    font-family: 'Bitter', serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.card-img-top {
+    width: 30%;
+    align-self: center;
+}
+
+#title {
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}

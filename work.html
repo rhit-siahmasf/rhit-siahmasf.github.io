@@ -1,22 +1,55 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
-  <link rel="stylesheet" href="styles/work.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Changa&family=Coda&family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="styles/work.css">
+  </head>
 
 <body>
-    <nav class="nav nav-pills nav-fill">
-        <a class="nav-link" aria-current="page" href="">Projects</a>
-        <a class="nav-link"  href="">Education & Related Courses</a>
-        <a class="nav-link"  href="">Related Work Experience</a>
-        <a class="nav-link"  href="">Activities</a>
-        <a class="nav-link"  href="">Who I Am</a>
-        <a class="nav-link"  href="">Talk To Me</a>
-    </nav>
+  <nav class="navbar navbar-dark bg-secondary">
+    <a id="projects" class="nav-link" aria-current="page" href="projects.html">Projects</a>
+    <a id="education" class="nav-link"  href="education.html">Education & Related Courses</a>
+    <a id="home" class="nav-link"  href="index.html">Home</a>
+    <a id="activities" class="nav-link"  href="activities.html">Activities</a>
+    <a id="about" class="nav-link"  href="about.html">Who I Am</a>
+    <a id="contact" class="nav-link"  href="contact.html">Talk To Me</a>
+  </nav>
+
+  <div id="workPage" class="container page-container">
+    <p id="title">WORK EXPERIENCE</p>
+    <div class="row justify-content-around">
+      <div id="experience" class="card col-4" style="width: 18rem;">
+        <div id="experienceHeader" class="card-header">ZOTEC PARTNERS, INC.</div>
+        <p>Title:<br> Software Engineering Intern, Architecture Team</p>
+        <p>Location: <br> Carmel, IN (remote) </p>
+        <p>Time:<br> June 2020 - August 2020</p>
+        <ul id="course" class="list-group list-group-flush"> Responsibilities
+          <li id="item1" class="list-group-item">Member of Architecture Team implementing HL7 FHIR resources in C#</li>
+          <li id="item2" class="list-group-item">Led Daily Scrum over Zoom, ensuring that Azure DevOps Sprint Board was updated
+            and on schedule to be finished in time (if not, made adjustments by delegating tasks
+            or moving stories to next sprint)</li>
+          <li id="item3" class="list-group-item">Solved files that had simple-fix syntax errors that were causing the build of the
+            program to crash before pushing to production</li>
+          <li id="item4" class="list-group-item">Finished and edited the documentation for HL7 FHIR resources, aided on-boarding
+            of 4 new full-time team members mid-sprint</li>
+          <li id="item5" class="list-group-item">Utilized AWS tools to check if data fields were filled as expected</li>
+        </ul>
+      </div>
+      <div id="experience" class="card col-4" style="width: 18rem;">
+        <div id="experienceHeader" class="card-header">STRYKER</div>
+        <p>Title:<br> Accelerate Development Intern,<br> IT Team</p>
+        <p>Location: <br> Kalamazoo, MI (remote) </p>
+        <p>Time:<br> June 2021 - August 2021</p>
+        <ul id="course" class="list-group list-group-flush"> Responsibilities
+          <li id="item1" class="list-group-item">To be added...</li>
+        </ul>
+      </div>
+  </div>
+
 </body>
 </html>
