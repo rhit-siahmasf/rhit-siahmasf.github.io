@@ -1,0 +1,106 @@
+body {
+    background: #DDDDDD;
+    font-family: 'Bitter', serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#projects:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#home:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#work:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#activities:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#about:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#contact:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#title {
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}
+
+#courseHeader {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+#courses {
+    background-color: #900000;
+    color: white;
+    font-size: 20px;
+}
+
+#csse120:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#csse220:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#csse230:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#csse280:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#appear1, #appear2, #appear3, #appear4 {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#csse120:hover #appear1{
+    opacity: 1;
+}
+
+#csse220:hover #appear2{
+    opacity: 1;
+}
+
+#csse230:hover #appear3{
+    opacity: 1;
+}
+
+#csse280:hover #appear4{
+    opacity: 1;
+}

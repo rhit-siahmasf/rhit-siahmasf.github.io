@@ -137,7 +137,7 @@ a {
     font-size: 28px;
 }
 
-#fiction, #yoga, #sustain, #coffee, #mango, #unknown {
+#fiction, #yoga, #sustain, #coffee, #mango, #travel {
     opacity: 0.5;
     transition: 0.5s;
 }
@@ -177,11 +177,13 @@ a {
     opacity: 1;
 }
 
-#unknown:hover {
+#travel:hover {
     transition-duration: 0.6s;
     background-color: #EFA072;
     color: black;
     opacity: 1;
 }
+
+
 
     

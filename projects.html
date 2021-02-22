@@ -1,22 +1,56 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
-  <link rel="stylesheet" href="styles/projects.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Changa&family=Coda&family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="styles/projects.css">
+  </head>
 
 <body>
-    <nav class="nav nav-pills nav-fill">
-        <a class="nav-link" aria-current="page" href="">Projects</a>
-        <a class="nav-link"  href="">Education & Related Courses</a>
-        <a class="nav-link"  href="">Related Work Experience</a>
-        <a class="nav-link"  href="">Activities</a>
-        <a class="nav-link"  href="">Who I Am</a>
-        <a class="nav-link"  href="">Talk To Me</a>
-    </nav>
+  <nav class="navbar navbar-dark bg-secondary">
+    <a id="home" class="nav-link" aria-current="page" href="index.html">Home</a>
+    <a id="education" class="nav-link"  href="education.html">Education & Related Courses</a>
+    <a id="work" class="nav-link"  href="work.html">Related Work Experience</a>
+    <a id="activities" class="nav-link"  href="activities.html">Activities</a>
+    <a id="about" class="nav-link"  href="about.html">Who I Am</a>
+    <a id="contact" class="nav-link"  href="contact.html">Talk To Me</a>
+  </nav>
+
+  <div id="projectPage" class="container page-container">
+    <p id="title">PROJECTS</p>
+    <div class="row justify-content-around">
+      <div id="csse220" class="card col-3 col-offset-1" style="width: 18rem;">
+        <img class="card-img-top" src="images/jousting.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 id="projectTitle "class="card-title">OOP: JAVA JOUSTING</h5>
+          <p class="card-text">This project was to master OOP fundamentals.</p>
+          <p class="card-text">LANGUAGE: Java</p>
+          <p class="card-text">IDE: Eclipse</p>
+        </div>
+      </div>
+      <div id="csse230" class="card col-3 col-offset-1" style="width: 18rem;">
+        <img class="card-img-top" src="images/Checkered Treehouse.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 id="projectTitle "class="card-title">DATA STRUCTURES: NAVIGATING WASHINGTON DC</h5>
+          <p class="card-text">This project was to develop a full understanding of data structures and their methods (specifically weighted graphs).</p>
+          <p class="card-text">LANGUAGE: Java</p>
+          <p class="card-text">IDE: Eclipse</p>
+        </div>
+      </div>
+      <div id="csse280" class="card col-3 col-offset-1" style="width: 18rem;">
+        <img class="card-img-top" src="images/Tastology.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 id="projectTitle "class="card-title">WEB DEVELOPMENT: TASTOLOGY</h5>
+          <p class="card-text">This project was to develop a functional web app that helps the user.</p>
+          <p class="card-text">LANGUAGE: HTML, CSS, Javascript</p>
+          <p class="card-text">IDE: Visual Studio Code</p>
+          <p class="card-text">DATABASE: Google Firebase</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>

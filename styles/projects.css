@@ -1,0 +1,64 @@
+body {
+    background: #DDDDDD;
+    font-family: 'Bitter', serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#home:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#education:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#work:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#activities:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#about:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#contact:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#title {
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}
+
+#projectTitle {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+}
+
+#csse220, #csse280 {
+    background-color: #900000;
+    color: white;
+    height: 90vh;
+}
