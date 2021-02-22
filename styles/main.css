@@ -1,0 +1,187 @@
+body {
+    background: #DDDDDD;
+    font-family: 'Bitter', serif;
+}
+
+a {
+    font-size: 18px;
+    font-family: 'Coda', cursive;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+#projects:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#education:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#work:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#activities:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#about:hover {
+    
+    background-color: #5aafb0;
+    color: black;
+}
+
+#contact:hover {
+    
+    background-color: #6dbf80;
+    color: black;
+}
+
+#nameArea {
+    font-size: 70px;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}
+
+#passionateHeader {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+}
+
+#passionCard {
+    background-color: #900000;
+    color: white;
+    height: 100vh;
+}
+
+#exercise:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#create:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#explore:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#compete:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#learn:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+#discuss:hover {
+    transition-duration: 0.6s;
+    background-color: #BF3326;
+}
+
+.list-group {
+    font-size: 20px;
+}
+
+#appear1, #appear2, #appear3, #appear4, #appear5, #appear6 {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#exercise:hover #appear1{
+    opacity: 1;
+}
+
+#create:hover #appear2{
+    opacity: 1;
+}
+
+#explore:hover #appear3{
+    opacity: 1;
+}
+
+#compete:hover #appear4{
+    opacity: 1;
+}
+
+#learn:hover #appear5{
+    opacity: 1;
+}
+
+#discuss:hover #appear6{
+    opacity: 1;
+}
+
+#interestCard {
+    background-color: #D14D00;
+    color: white;
+    
+}
+
+#interestHeader {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 28px;
+}
+
+#fiction, #yoga, #sustain, #coffee, #mango, #unknown {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+#fiction:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+#yoga:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+#sustain:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+#coffee:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+#mango:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+#unknown:hover {
+    transition-duration: 0.6s;
+    background-color: #EFA072;
+    color: black;
+    opacity: 1;
+}
+
+    
